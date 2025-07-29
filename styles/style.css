@@ -235,6 +235,29 @@ font-weight: 400;
 .lover-texts{
     flex: 1;
 }
+.deals-header {
+    padding: 32px 0;
+    text-align: center;
+    background-color: #f5f8ff;
+}
+.section-title {
+    /* font-family: 'Noto Serif', serif; */
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.section-description {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 888px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.txt-latest{
+    color: rgb(233, 90, 8);
+}
+
 /* RE */
 @media screen and (max-width: 480px) {
 
@@ -283,8 +306,10 @@ margin-top: 67px;
     align-items: center;
     gap: 50px;
     position: relative;
-    /* padding: ; */
     width: 580px;
+}
+.deals-header{
+width: 580px;
 }
 
 }
